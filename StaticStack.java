@@ -44,14 +44,13 @@ public class StaticStack {
 
         stack.push(10);
         stack.push(20);
-        stack.pop();
         stack.push(50);
 
         System.out.println("Topo da pilha: " + stack.peek());
 
         System.out.println("Elemento removido: " + stack.pop());
 
-        stack.clear(); // Limpa a pilha
+        stack.clear(); 
 
         System.out.println("A pilha está vazia? " + stack.isEmpty());
     }
